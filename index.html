@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Oasis ☕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">The<span>Oasis</span></div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#¿Quiénes somos?">¿Quiénes somos?</a></li>
+            <li><a href="#Menú">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-extra">
+            <div class="theme-toggle-btn" id="theme-toggle-btn" title="Cambiar modo claro/oscuro">
+                🌙
+            </div>
+            <div class="cart-btn" id="cart-btn" title="Ver carrito">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Calidad y Sabor en una sola taza.</h1>
+            <p>Disfruta de granos seleccionados y un ambiente cálido.</p>
+            <a href="#Menú" class="btn">Saber más</a>
+        </div>
+    </header>
+
+    <section id="¿Quiénes somos?" class="section">
+        <div class="container">
+            <h1>¿Quiénes somos?</h1>
+            <p>Somos la mejor cafetería express, con más de 10 años, brindando siempre nuestro mejor servicio y atención al cliente.</p>
+        </div>
+    </section>
+
+    <div class="logo-section">
+        <img src="Images/logo.png" alt="The Oasis Logo" class="logo-img">
+    </div>
+
+    <section id="Menú" class="section">
+        <div class="container-menu">
+                    
+                    <h1 class="container-menu" style="width: 100%;">Menú que ofrecemos:</h1>
+                    
+                    <h2 class="menu-category-title">☕ Cafés Especiales</h2>
+                    <section class="productos">
+
+                        <div class="card" data-id="espresso" data-name="Espresso" data-price="2.00">
+                            <h3>Espresso</h3>
+                            <div class="imagen-contenedor">
+                                <img src="Images/espresso.jpg" alt="espresso">
+                            </div>
+                            <p>Puro y energético.</p>
+                            <p><strong>$2.00</strong></p>
+                            <button class="btn-add-cart">Agregar al Carrito</button>
+                        </div>
+
+                        <div class="card" data-id="capuccino" data-name="Capuccino" data-price="3.00">
+                            <h3>Capuccino</h3>
+                            <div class="imagen-contenedor">
+                                <img src="Images/capuccino.jpg" alt="Capuccino">
+                            </div>
+                            <p>Intenso y Cremoso.</p>
+                            <p><strong>$3.00</strong></p>
+                            <button class="btn-add-cart">Agregar al Carrito</button>
+                        </div>
+
+                        <div class="card" data-id="mocaccino" data-name="Mocaccino" data-price="5.00">
+                            <h3>Mocaccino</h3>
+                            <div class="imagen-contenedor">
+                                <img src="Images/Mocaccino.jpg" alt="Mocaccino">
+                            </div>
+                            <p>Con un toque de chocolate.</p>
+                            <p><strong>$5.00</strong></p>
+                            <button class="btn-add-cart">Agregar al Carrito</button>
+                        </div>
+
+                    </section>
+
+                    <h2 class="menu-category-title">🥐 Panadería y Repostería</h2>
+                    <section class="productos">
+
+                        <div class="card" data-id="croissant" data-name="Croissant" data-price="1.50">
+                            <h3>Croissant</h3>
+                            <div class="imagen-contenedor">
+                                <img src="Images/croissant.png" alt="Croissant">
+                            </div>
+                            <p>Crujiente y con mantequilla.</p>
+                            <p><strong>$1.50</strong></p>
+                            <button class="btn-add-cart">Agregar al Carrito</button>
+                        </div>
+
+                        <div class="card" data-id="cheesecake" data-name="Cheesecake" data-price="4.00">
+                            <h3>Cheesecake</h3>
+                            <div class="imagen-contenedor">
+                                <img src="Images/cheesecake.png" alt="Cheesecake">
+                            </div>
+                            <p>De fresa, cremoso y suave.</p>
+                            <p><strong>$4.00</strong></p>
+                            <button class="btn-add-cart">Agregar al Carrito</button>
+                        </div>
+
+                        <div class="card" data-id="muffin" data-name="Muffin de Arándano" data-price="2.50">
+                            <h3>Muffin</h3>
+                            <div class="imagen-contenedor">
+                                <img src="Images/muffin.png" alt="Muffin">
+                            </div>
+                            <p>Esponjoso y con arándanos.</p>
+                            <p><strong>$2.50</strong></p>
+                            <button class="btn-add-cart">Agregar al Carrito</button>
+                        </div>
+
+                    </section>
+                </div>
+            </section>
+
+            <footer id="contacto">
+                <div class="container footer-content">
+                    <div class="footer-info">
+                        <h1>The Oasis C.A.</h1>
+                        <p>📍 Ciudad San Fierro, Calle Juniper Hollow.</p>
+                        <p>📞 +1 (305) 998-7766.</p>
+                        <p>✉️ Contacto@TheOasis.com.</p>
+                        <p>Developed by: Javier Contreras - C.I: 31.742.978</p>
+                    </div>
+                    <div class="footer-copy">
+                        <p>&copy; 2026 The Oasis.</p>
+                    </div>
+                </div>
+            </footer>
+    <!-- Panel Lateral del Carrito (Cart Drawer) -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-drawer-header">
+            <h2>Tu Pedido</h2>
+            <button class="cart-close-btn" id="cart-close-btn">&times;</button>
+        </div>
+        <div class="cart-drawer-items" id="cart-drawer-items">
+            <!-- Los artículos del carrito se renderizarán aquí dinámicamente -->
+            <div class="cart-empty-message">El carrito está vacío.</div>
+        </div>
+        <div class="cart-drawer-footer">
+            <div class="cart-total-row">
+                <span>Total:</span>
+                <span class="cart-total-price" id="cart-total-price">$0.00</span>
+            </div>
+            <div class="cart-drawer-actions">
+                <button class="btn btn-secondary-outline" id="cart-clear-btn">Vaciar</button>
+                <button class="btn btn-primary" id="cart-checkout-btn">Pagar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Facturación y Pago -->
+    <div class="modal-overlay" id="checkout-modal">
+        <div class="modal-content">
+            <!-- Vista 1: Formulario de Pago -->
+            <div class="checkout-form-view" id="checkout-form-view">
+                <div class="modal-header">
+                    <h2>Datos de Facturación</h2>
+                    <button class="modal-close-btn" id="checkout-close-btn">&times;</button>
+                </div>
+                <form id="checkout-form" class="checkout-form">
+                    <div class="form-group">
+                        <label for="client-name">Nombre del Cliente <span class="required">*</span></label>
+                        <input type="text" id="client-name" required placeholder="Ej. Juan Pérez" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+" title="Solo se permiten letras y espacios">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-id">Cédula / ID <span class="required">*</span></label>
+                        <input type="text" id="client-id" required placeholder="Ej. 31742978" pattern="[0-9]+" title="Solo se permiten números (sin letras, guiones ni puntos)">
+                    </div>
+                    <div class="form-group">
+                        <label for="payment-method">Método de Pago <span class="required">*</span></label>
+                        <select id="payment-method" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="Efectivo">Efectivo</option>
+                            <option value="Tarjeta de Débito / Crédito">Tarjeta de Débito / Crédito</option>
+                            <option value="Pago Móvil">Pago Móvil</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-block" style="width: 100%; margin-top: 15px;">Emitir Factura</button>
+                </form>
+            </div>
+
+            <!-- Vista 2: Factura Generada (Imprimible) -->
+            <div class="invoice-view" id="invoice-view" style="display: none;">
+                <div class="invoice-actions no-print">
+                    <button class="btn btn-secondary" id="invoice-print-btn">🖨️ Imprimir / Guardar PDF</button>
+                    <button class="btn btn-primary" id="invoice-new-btn">🔄 Nueva Compra</button>
+                </div>
+                
+                <!-- Contenido Imprimible de la Factura -->
+                <div class="invoice-paper" id="factura-imprimible">
+                    <div class="invoice-header">
+                        <div class="invoice-company-details">
+                            <h2 class="invoice-company-name">The Oasis C.A.</h2>
+                            <p>📍 Ciudad San Fierro, Calle Juniper Hollow.</p>
+                            <p>📞 +1 (305) 998-7766.</p>
+                            <p>✉️ Contacto@TheOasis.com.</p>
+                            <p style="margin-top: 5px; font-size: 0.75rem; font-weight: bold; font-family: inherit;">Developed by: Javier Contreras - C.I: 31.742.978</p>
+                        </div>
+                        <div class="invoice-meta">
+                            <h3>FACTURA</h3>
+                            <p><strong>N° Factura:</strong> <span id="inv-number">0001</span></p>
+                            <p><strong>Fecha:</strong> <span id="inv-date">--/--/----</span></p>
+                            <p><strong>Hora:</strong> <span id="inv-time">--:--</span></p>
+                        </div>
+                    </div>
+
+                    <div class="invoice-divider"></div>
+
+                    <div class="invoice-client-details">
+                        <h4>DATOS DEL CLIENTE</h4>
+                        <p><strong>Nombre:</strong> <span id="inv-client-name">-</span></p>
+                        <p><strong>Cédula/ID:</strong> <span id="inv-client-id">-</span></p>
+                        <p><strong>Método de Pago:</strong> <span id="inv-payment-method">-</span></p>
+                    </div>
+
+                    <div class="invoice-divider"></div>
+
+                    <table class="invoice-table">
+                        <thead>
+                            <tr>
+                                <th>Descripción</th>
+                                <th class="text-center">Cant.</th>
+                                <th class="text-right">P. Unit</th>
+                                <th class="text-right">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="invoice-items-body">
+                            <!-- Los productos se añadirán dinámicamente -->
+                        </tbody>
+                    </table>
+
+                    <div class="invoice-divider"></div>
+
+                    <div class="invoice-totals">
+                        <div class="totals-row">
+                            <span>Subtotal:</span>
+                            <span id="inv-subtotal">$0.00</span>
+                        </div>
+                        <div class="totals-row">
+                            <span>I.V.A. (16%):</span>
+                            <span id="inv-tax">$0.00</span>
+                        </div>
+                        <div class="totals-row grand-total">
+                            <span>Total a Pagar:</span>
+                            <span id="inv-total">$0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="invoice-footer">
+                        <p>¡Gracias por su compra en The Oasis!</p>
+                        <p>Conserve su factura para cualquier reclamo.</p>
+                        <p style="font-size: 0.75rem; margin-top: 10px; border-top: 1px dashed #cbd5e0; padding-top: 8px; font-family: inherit;">Developed by: Javier Contreras - C.I: 31.742.978</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
