@@ -106,8 +106,8 @@ body, section, footer, nav, input, select, .card, .cart-drawer, .nav-links a, .l
     
     padding: 150px 10% 50px 10%; 
     
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('Images/cafeteria.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('./assets/Images/cafeteria.jpg') no-repeat center center/cover;
     color: #ffffff;
 }
 
@@ -984,4 +984,4 @@ body.dark-theme .form-group input:focus,
 body.dark-theme .form-group select:focus {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.25);
-}
+}
